@@ -16,12 +16,6 @@ public class Main extends Application{
 		HangManGame root = new HangManGame();
 		Scene s = new Scene(root, 400, 650);
 		root.requestFocus();
-		/*s.setOnKeyPressed(e -> 
-		{
-			root.setupListeners();
-			/*String key = String.valueOf(e.getCode());
-			root.setupListeners(key);/
-		});*/
 		arg.setScene(s);
 		arg.setTitle("helloworld");
 		arg.show();
