@@ -11,10 +11,7 @@ import javafx.scene.input.*;
 import javafx.scene.layout.*;
 import javafx.scene.text.Text;
 
-/**
- *
- * @author lesib
- */
+
 public class HangManGame extends Pane {
     
     private String trueWord = "HELLOWORLD";
